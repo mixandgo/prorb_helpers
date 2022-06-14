@@ -2,3 +2,6 @@
 <p>Find me in app/views/site/index.html.erb</p>
 
 <div><%= age(User.first) %></div>
+
+
+<%= link_to "HOME", edit_user_path(User.first), id: "user", class: "foo bar" %>
